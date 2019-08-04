@@ -2,7 +2,7 @@ package com.ihrm.cpmpany.service;
 
 import com.ihrm.common.utils.IdWorker;
 import com.ihrm.cpmpany.dao.CompanyDao;
-import com.ihrm.cpmpany.domain.Company;
+import com.ihrm.domain.company.Company;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

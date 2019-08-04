@@ -1,0 +1,18 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: ihrm-system #指定服务名
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ihrm?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    show-sql: true
+    open-in-view: true
+jwt:
+  config:
+    key: saas-ihrm
+    ttl: 3600000
